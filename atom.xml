@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://fantasyer01.github.io</id>
+    <title>fantasyer</title>
+    <updated>2025-05-03T03:57:17.345Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://fantasyer01.github.io"/>
+    <link rel="self" href="https://fantasyer01.github.io/atom.xml"/>
+    <subtitle>宁静致远</subtitle>
+    <logo>https://fantasyer01.github.io/images/avatar.png</logo>
+    <icon>https://fantasyer01.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, fantasyer</rights>
+    <entry>
+        <title type="html"><![CDATA[《改变未来的九大算法》读书笔记]]></title>
+        <id>https://fantasyer01.github.io/post/lesslessgai-bian-wei-lai-de-jiu-da-suan-fa-greatergreater-du-shu-bi-ji/</id>
+        <link href="https://fantasyer01.github.io/post/lesslessgai-bian-wei-lai-de-jiu-da-suan-fa-greatergreater-du-shu-bi-ji/">
+        </link>
+        <updated>2025-05-03T03:56:12.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="改变未来的九大算法读书笔记">《改变未来的九大算法》读书笔记</h1>
+<h2 id="1-搜索引擎索引草垛寻针">1. 搜索引擎索引（草垛寻针）</h2>
+<p><strong>思想来源</strong>：源自古巴比伦泥版分类和书籍索引传统，由AltaVista首次应用于互联网规模。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>元词把戏</strong>：将HTML标签视为特殊词项建立索引，支持结构化查询（如标题搜索）。</li>
+<li><strong>词位置把戏</strong>：记录单词在文档中的位置，实现短语匹配和邻度排名（如&quot;cat NEAR dog&quot;）。<br>
+<strong>当前应用</strong>：所有现代搜索引擎（Google/Bing等）的基础，支撑每日千亿级查询，通过高效索引从万亿网页中毫秒级返回结果。</li>
+</ul>
+<h2 id="2-pagerank谷歌腾飞技术">2. PageRank（谷歌腾飞技术）</h2>
+<p><strong>思想来源</strong>：拉里·佩奇受学术论文引用机制启发，类比超链接为&quot;投票&quot;。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>超链接=权重传递</strong>：重要网页的链接赋予更高权重。</li>
+<li><strong>随机访问者模型</strong>：模拟用户15%概率随机跳转，解决链接循环问题。<br>
+<strong>当前应用</strong>：仍是Google核心算法之一，对抗垃圾链接的变体（如TrustRank）广泛应用于SEO和网络影响力分析。</li>
+</ul>
+<h2 id="3-公钥加密明信片传密">3. 公钥加密（明信片传密）</h2>
+<p><strong>思想来源</strong>：迪菲-赫尔曼1976年突破传统密码学，解决密钥分发难题。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>颜料混合把戏</strong>：利用模幂运算（如g^a mod p）实现密钥协商。</li>
+<li><strong>非对称性</strong>：公钥加密仅私钥可解密，数字签名反之。<br>
+<strong>当前应用</strong>：HTTPS/SSL（全球网站加密）、比特币交易、Signal加密通讯，2023年全球PKI市场规模超150亿美元。</li>
+</ul>
+<h2 id="4-纠错码自纠正错误">4. 纠错码（自纠正错误）</h2>
+<p><strong>思想来源</strong>：香农1948年信息论，汉明1950年发明首个实用纠错码。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>冗余校验</strong>：添加校验位（如里德-所罗门码）。</li>
+<li><strong>最大似然解码</strong>：通过数学重构原始数据。<br>
+<strong>当前应用</strong>：保障数据完整性，应用于二维码（QR）、5G通信、NASA深空通信（旅行者号）、SSD存储（每1TB数据含30GB校验码）。</li>
+</ul>
+<h2 id="5-图形识别经验学习">5. 图形识别（经验学习）</h2>
+<p><strong>思想来源</strong>：1956年达特茅斯会议提出AI概念，受神经元工作原理启发。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>特征提取</strong>：最近邻分类/决策树/神经网络分层处理。</li>
+<li><strong>监督学习</strong>：通过标注数据训练模型。<br>
+<strong>当前应用</strong>：人脸识别（iPhone Face ID）、语音助手（Siri/Alexa）、医疗影像诊断（AI辅助癌症筛查准确率超95%）。</li>
+</ul>
+<h2 id="6-数据压缩无损有损">6. 数据压缩（无损/有损）</h2>
+<p><strong>思想来源</strong>：香农熵理论，Zip创始人Phil Katz 1986年实现DEFLATE算法。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>无损压缩</strong>：哈夫曼编码/字典编码（LZ77）。</li>
+<li><strong>有损压缩</strong>：JPEG离散余弦变换，MP3心理声学模型。<br>
+<strong>当前应用</strong>：ZIP/RAR（全球日压缩文件超50亿个），流媒体（Netflix节省60%带宽），基因组数据压缩（将100GB FASTQ压至5GB）。</li>
+</ul>
+<h2 id="7-数据库一致性保障">7. 数据库（一致性保障）</h2>
+<p><strong>思想来源</strong>：IBM研究员Edgar Codd 1970年提出关系模型。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>ACID原则</strong>：原子性/一致性/隔离性/持久性。</li>
+<li><strong>两阶段提交</strong>：协调多节点事务。<br>
+<strong>当前应用</strong>：银行交易系统（每秒处理万笔交易）、航空订票（CAP定理平衡）、区块链（分布式账本技术基础）。</li>
+</ul>
+<h2 id="8-数字签名软件认证">8. 数字签名（软件认证）</h2>
+<p><strong>思想来源</strong>：Rivest等1977年RSA算法实现数学签名。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>哈希+加密</strong>：先哈希摘要再私钥加密。</li>
+<li><strong>证书链</strong>：CA机构分级验证身份。<br>
+<strong>当前应用</strong>：软件更新签名（Windows Update）、电子合同（DocuSign年处理2亿份）、代码仓库（Git commit签名防篡改）。</li>
+</ul>
+<h2 id="9-不可解问题算法极限">9. 不可解问题（算法极限）</h2>
+<p><strong>思想来源</strong>：图灵1936年停机问题，哥德尔不完备定理。<br>
+<strong>核心要点</strong>：</p>
+<ul>
+<li><strong>可计算性理论</strong>：存在无法被任何算法解决的问题。</li>
+<li><strong>NP完全问题</strong>：旅行商问题等组合爆炸难题。<br>
+<strong>当前应用</strong>：指导算法设计边界，加密货币（PoW机制利用计算难度），量子计算研究（Shor算法挑战RSA加密）。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello AIGC]]></title>
+        <id>https://fantasyer01.github.io/post/hello-aigc/</id>
+        <link href="https://fantasyer01.github.io/post/hello-aigc/">
+        </link>
+        <updated>2025-04-24T14:29:41.000Z</updated>
+        <content type="html"><![CDATA[<p>AIGC的时代已经来临，在未来的数字世界里通过AI生成的内容将很快超过人类，文字、图片、视频、音频、代码等等，我想在这里记录我自己通过AI生成的一些有趣内容。</p>
+<!-- more -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://fantasyer01.github.io/post/hello-gridea/</id>
+        <link href="https://fantasyer01.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
